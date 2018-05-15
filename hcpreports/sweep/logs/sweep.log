@@ -1,0 +1,125 @@
+2017-04-18 19:07:00 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/sweep/sweep/pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2017-04-18 19:07:29 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/sweep/sweep/pipelines.py:110: ScrapyDeprecationWarning: log.err has been deprecated, create a python logger and use its error method instead
+  log.err(failure)
+
+2017-04-18 19:07:29 [scrapy] ERROR: 'ascii' codec can't decode byte 0xc2 in position 27: ordinal not in range(128)
+Traceback (most recent call last):
+  File "/home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/python/threadpool.py", line 246, in inContext
+    result = inContext.theWork()
+  File "/home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/python/threadpool.py", line 262, in <lambda>
+    inContext.theWork = lambda: context.call(ctx, func, *args, **kw)
+  File "/home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/python/context.py", line 118, in callWithContext
+    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+  File "/home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/python/context.py", line 81, in callWithContext
+    return func(*args,**kw)
+  File "/home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py", line 467, in _runInteraction
+    result = interaction(trans, *args, **kw)
+  File "/home/rahul/git/scraper/hcpreports/sweep/sweep/pipelines.py", line 85, in _do_upsert
+    self._update_data(item, self.update_query)
+  File "/home/rahul/git/scraper/hcpreports/sweep/sweep/pipelines.py", line 103, in _update_data
+    sql = update % (fields, item["email"])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 27: ordinal not in range(128)
+2017-04-18 19:07:36 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Incorrect string value: '\xE0\xB2\xAA\xE0\xB3\x8D...' for column 'name' at row 1
+  trans.execute(*args, **kw)
+
+2017-04-18 19:09:30 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Incorrect string value: '\xE0\xA5\x90\xE0\xA4\x95...' for column 'name' at row 1
+  trans.execute(*args, **kw)
+
+2017-04-18 19:10:14 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Incorrect string value: '\xE0\xB4\xAE\xE0\xB4\xB9...' for column 'name' at row 1
+  trans.execute(*args, **kw)
+
+2017-04-18 19:10:15 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'a1_abhay2001@yahoo.co.in' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:11:46 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Incorrect string value: '\xE0\xA4\x95\xE0\xA4\xBF...' for column 'name' at row 1
+  trans.execute(*args, **kw)
+
+2017-04-18 19:11:59 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'sriabhi2000@yahoo.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:12:07 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'pzokarkar@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:12:55 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'zaidcoolrockstar@rocketmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:12:55 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'saiakhil131096@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:00 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'sakshijain914@yahoo.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:04 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'maheshbaghel90@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:13 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'sree_smile2005@yahoo.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:14 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Incorrect string value: '\xE0\xB0\x95\xE0\xB1\x86...' for column 'name' at row 1
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:14 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'nks291074@yahoo.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:14 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'anurag_bhatnagar12345@yahoo.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:24 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'mohdisaac94@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:25 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'rautseema26@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:31 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'amritkaul12b@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:31 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'shallusingla9@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:35 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'naziya_hussaink@yahoo.co.in' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:36 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'spmahto683@rocketmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:38 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'asanthif@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:39 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'nisha.malav3011@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:39 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'prathyushaviz@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:13:58 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'thakshilad@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:14:00 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'rdushyanthi@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:14:04 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'ankit_bansal@hotmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:14:04 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'nk553guptamadhubani@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:14:06 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'saran.p1987@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:14:06 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'palashjain2801@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:14:13 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'kamboj007kumar7@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:14:13 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'catchmesujay@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:14:16 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'cshivadinesh@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
+2017-04-18 19:14:18 [py.warnings] WARNING: /home/rahul/git/scraper/hcpreports/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Duplicate entry 'shane11waz@gmail.com' for key 'email_UNIQUE'
+  trans.execute(*args, **kw)
+
