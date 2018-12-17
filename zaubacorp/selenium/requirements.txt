@@ -1,0 +1,9 @@
+beautifulsoup4==4.4.0
+EasyProcess==0.2.2
+et-xmlfile==1.0.1
+jdcal==1.2
+lxml==3.4.4
+openpyxl==2.3.5
+PyVirtualDisplay==0.2
+requests==2.10.0
+selenium==2.53.2

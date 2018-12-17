@@ -1,0 +1,15 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+Company	/home/rahul/git/scraper/zaubacorp/scraper.py	/^class Company(object):$/;"	c	language:Python
+get_companies_from_file	/home/rahul/git/scraper/zaubacorp/scraper.py	/^def get_companies_from_file(source_location):$/;"	f	language:Python
+get_companies_from_url	/home/rahul/git/scraper/zaubacorp/scraper.py	/^def get_companies_from_url(source_location, driver, start, stop):$/;"	f	language:Python
+get_company_list	/home/rahul/git/scraper/zaubacorp/scraper.py	/^def get_company_list(page=None, user_list=[]):$/;"	f	language:Python
+header	/home/rahul/git/scraper/zaubacorp/scraper.py	/^header = ["cin", "company_name", "roc", "company_category", "company_sub_category", "registration_number",$/;"	v	language:Python
+init_extraction	/home/rahul/git/scraper/zaubacorp/scraper.py	/^def init_extraction(page=None):$/;"	f	language:Python
+init_scraping	/home/rahul/git/scraper/zaubacorp/scraper.py	/^def init_scraping(source, source_location, driver, start, stop):$/;"	f	language:Python
+SOURCE	/home/rahul/git/scraper/zaubacorp/config.py	/^SOURCE = "file"$/;"	v	language:Python
+SOURCE_PATH	/home/rahul/git/scraper/zaubacorp/config.py	/^SOURCE_PATH = "2016_Jan_March.xlsx"$/;"	v	language:Python
+SOURCE_URL	/home/rahul/git/scraper/zaubacorp/config.py	/^SOURCE_URL = "https:\/\/www.zaubacorp.com\/company-list\/p-{}-company.html"$/;"	v	language:Python
+START	/home/rahul/git/scraper/zaubacorp/config.py	/^START = 1 # 1301$/;"	v	language:Python
+STEP	/home/rahul/git/scraper/zaubacorp/config.py	/^STEP = 1$/;"	v	language:Python
+STOP	/home/rahul/git/scraper/zaubacorp/config.py	/^STOP = 2  # 1501 # 54374$/;"	v	language:Python
+__init__	/home/rahul/git/scraper/zaubacorp/scraper.py	/^    def __init__(self, **kwargs):$/;"	m	language:Python	class:Company

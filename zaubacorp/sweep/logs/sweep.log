@@ -1,0 +1,7 @@
+2017-04-15 13:28:50 [py.warnings] WARNING: /home/rahul/git/scraper/zaubacorp/sweep/sweep/pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2017-04-15 13:28:52 [py.warnings] WARNING: /home/rahul/git/scraper/zaubacorp/venv/local/lib/python2.7/site-packages/twisted/enterprise/adbapi.py:486: Warning: Incorrect integer value: '' for column 'member_count' at row 1
+  trans.execute(*args, **kw)
+
+Exception twisted._threads._ithreads.AlreadyQuit: AlreadyQuit() in <bound method MySQLPipeline.__del__ of <sweep.pipelines.MySQLPipeline object at 0x7fef7cf01950>> ignored
